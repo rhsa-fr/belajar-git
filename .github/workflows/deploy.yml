@@ -19,8 +19,8 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 64000
         script: |
-            if [ ! -d "/var/www/html/cicd" ]; then
-              mkdir -p /var/www/html/cicd
+            if [ ! -d "/var/www/html/2305080" ]; then
+              mkdir -p /var/www/html/2305080
             fi
 
             if [ ! -d "/var/www/html/cicd/2305080" ]; then
